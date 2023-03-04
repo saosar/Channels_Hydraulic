@@ -1,0 +1,26 @@
+CONFIGURACIÓN DE AMBIENTE PARA CÓDIGOS DE HIDRAÚLICA
+
+conda activate 
+conda env list
+conda activate ambiente
+
+tkinter: #Libreria para interfaz grafica
+	> conda install -c anaconda tk
+	
+numpy:# se importa la libreria numpy o matematica
+	> conda install -c anaconda numpy
+	
+math: #Libreria para calculo de los angulos 
+	> conda install -c conda-forge python-markdown-math
+	
+matplotlib: # libreria para graficar
+	> conda install -c conda-forge matplotlib
+
+pandas: # para crear el data frame
+	> conda install -c anaconda pandas
+
+turtle: #Para dibujar el canal
+	> conda install -c r r-turtlegraphics
+
+
+io # viene por defecto : sirve para herramientas para trabajar con E/S (entrada/salida) en Python. Esta librería incluye clases para manejar archivos de texto y binarios, así como para trabajar con flujos de datos de memoria, entre otros : Ejemplo : io.StringIO: Para trabajar con cadenas de caracteres como si fueran archivos de texto.
